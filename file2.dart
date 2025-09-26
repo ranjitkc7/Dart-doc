@@ -14,16 +14,16 @@ class Person {
 }
 
 void main() {
-  // var randomNumber = Random().nextInt(100);
-  // print("The generated random number is : $randomNumber");
+  var randomNumber = Random().nextInt(100);
+  print("The generated random number is : $randomNumber");
 
-  // var squareRootNumber = sqrt(144);
-  // print("The square root of  is : $squareRootNumber");
+  var squareRootNumber = sqrt(144);
+  print("The square root of  is : $squareRootNumber");
 
-  // var power = pow(2, 5);
-  // print("The power is : $power");
+  var power = pow(2, 5);
+  print("The power is : $power");
 
-  // greet("Ranjit", 22);
+  greet("Ranjit", 22);
 
   var person1 = Person("Sameer KC", 12);
   var person2 = Person("Harthik KC", 14);
